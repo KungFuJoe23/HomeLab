@@ -1,0 +1,1 @@
+Add-Computer -DomainName homelab.local -Server hl-dc1.homelab.local -Credential (Get-Credential homelab\eingram) -NewName "Server044" -Restart
